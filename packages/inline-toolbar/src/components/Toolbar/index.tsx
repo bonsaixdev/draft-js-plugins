@@ -161,6 +161,7 @@ export default class Toolbar extends React.Component<ToolbarProps> {
 
     return (
       <div
+        id="inltoolbar"
         className={theme.toolbarStyles.toolbar}
         style={this.getStyle()}
         ref={(element) => {
